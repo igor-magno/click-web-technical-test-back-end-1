@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ __('News') }}</title>
+    <title>{{ __('news.news') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -21,7 +21,7 @@
             <ol class="inline-flex items-center space-x-1 md:space-x-3">
               <li class="inline-flex items-center">
                 <a href="{{ route('news.index') }}" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
-                  {{ __('News') }}
+                  {{ __('news.news') }}
                 </a>
               </li>
               <li aria-current="page">
@@ -38,7 +38,7 @@
             <div class="">
                 <h2 class="mb-2 text-4xl font-semibold tracking-tight">{{ $news->title }}</h2>
                 <span class="text-normal mb-2">{{ $news->subtitle }}</span>
-                <p class="text-sm mb-2">{{ __('By') }} {{ $news->author }}</p>
+                <p class="text-sm mb-2">{{ __('news.by') }} {{ $news->author }}</p>
             </div>
             <hr class="my-2 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
             <div class="pb-4">

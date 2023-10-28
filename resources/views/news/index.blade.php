@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ __('News') }}</title>
+    <title>{{ __('news.news') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -24,7 +24,7 @@
                 <div class="">
                     <h2 class="mb-2 text-4xl font-semibold tracking-tight">{{ $n->title }}</h2>
                     <span class="text-normal mb-2">{{ $n->subtitle }}</span>
-                    <p class="text-sm mb-2">{{ __('By') }} {{ $n->author }}</p>
+                    <p class="text-sm mb-2">{{ __('news.by') }} {{ $n->author }}</p>
                 </div>
                 <hr class="my-2 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
                 <div class="pb-4">
