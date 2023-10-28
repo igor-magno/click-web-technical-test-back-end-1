@@ -38,7 +38,7 @@
             <div class="">
                 <h2 class="mb-2 text-4xl font-semibold tracking-tight">{{ $news->title }}</h2>
                 <span class="text-normal mb-2">{{ $news->subtitle }}</span>
-                <p class="text-sm mb-2">{{ __('By') }} {{ $new->author }}</p>
+                <p class="text-sm mb-2">{{ __('By') }} {{ $news->author }}</p>
             </div>
             <hr class="my-2 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
             <div class="pb-4">
