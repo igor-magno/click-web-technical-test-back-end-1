@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('subtitle');
             $table->text('summary');
             $table->text('content');
+            $table->string('author');
             $table->timestamps();
         });
     }
