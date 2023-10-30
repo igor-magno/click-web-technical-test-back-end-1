@@ -16,6 +16,7 @@
 
 <body class="antialiased dark:bg-gray-600 dark:text-slate-300 font-sans">
     <div class="flex flex-col justify-content-center items-center gap-4 py-8">
+        <h2 class="text-4xl font-extrabold dark:text-white">{{ __('news.news') }}</h2>
         <div class="w-1/2 rounded p-8 dark:bg-gray-800">
             {{ $news->links() }}
         </div>

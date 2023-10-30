@@ -17,6 +17,7 @@
 <body class="antialiased dark:bg-gray-600 dark:text-slate-300 font-sans">
 
     <div class="flex flex-col justify-content-center items-center gap-4 py-8">
+        <h2 class="text-4xl font-extrabold dark:text-white">{{ __('news.news') }}</h2>
         <nav class="flex" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-3">
               <li class="inline-flex items-center">
